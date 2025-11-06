@@ -31,7 +31,9 @@
             this.pieChart1 = new LiveCharts.WinForms.PieChart();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.dgvBrandStats = new System.Windows.Forms.DataGridView();
+            this.dgvTotal = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBrandStats)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTotal)).BeginInit();
             this.SuspendLayout();
             // 
             // pieChart1
@@ -60,17 +62,29 @@
             this.dgvBrandStats.Size = new System.Drawing.Size(418, 150);
             this.dgvBrandStats.TabIndex = 2;
             // 
+            // dgvTotal
+            // 
+            this.dgvTotal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTotal.Location = new System.Drawing.Point(947, 261);
+            this.dgvTotal.Name = "dgvTotal";
+            this.dgvTotal.RowHeadersWidth = 51;
+            this.dgvTotal.RowTemplate.Height = 24;
+            this.dgvTotal.Size = new System.Drawing.Size(418, 54);
+            this.dgvTotal.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1553, 719);
+            this.Controls.Add(this.dgvTotal);
             this.Controls.Add(this.dgvBrandStats);
             this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.pieChart1);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvBrandStats)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTotal)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -80,6 +94,7 @@
         private LiveCharts.WinForms.PieChart pieChart1;
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
         private System.Windows.Forms.DataGridView dgvBrandStats;
+        private System.Windows.Forms.DataGridView dgvTotal;
     }
 }
 

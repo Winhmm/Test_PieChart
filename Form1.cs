@@ -23,6 +23,7 @@ namespace DEMO_PieChart
             LoadPieChart();
             LoadColumnChart();
             LoadBrandStats();
+            LoadTotal();
         }
         private void LoadPieChart()
         {
@@ -142,5 +143,25 @@ namespace DEMO_PieChart
             }
         }
 
+        private void LoadTotal()
+        {
+            var totalCars = (from b in db.BUYs
+                         join c in db.CARs on b.CAR_ID equals c.CAR_ID
+                         select b.BUY_QUANTITY).Sum();
+            var totalList = new List<dynamic>
+            {
+                new
+                {
+                    Label = "Tổng số xe bán được",
+                    TotalSold = totalCars
+                }
+            };
+            dgvTotal.DataSource = totalList;
+            dgvTotal.Columns["Label"].HeaderText = "Mô tả";
+            dgvTotal.Columns["TotalSold"].HeaderText = "Số xe bán được";
+            dgvTotal.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvTotal.Rows[0].DefaultCellStyle.BackColor = Color.LightGray;
+            dgvTotal.Rows[0].DefaultCellStyle.Font = new Font(dgvTotal.Font, FontStyle.Bold);
+        }
     }
 }

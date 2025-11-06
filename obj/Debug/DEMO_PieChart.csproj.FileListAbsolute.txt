@@ -17,7 +17,8 @@ D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.csproj.CoreCompileInpu
 D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_Pie.EA58BE20.Up2Date
 D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.exe
 D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.pdb
-D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.exe.config
 D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.Form1.resources
 D:\C#\DEMO_PieChart\DEMO_PieChart\bin\Debug\Database1.mdf
 D:\C#\DEMO_PieChart\DEMO_PieChart\bin\Debug\Database1_log.ldf
+D:\C#\DEMO_PieChart\DEMO_PieChart\bin\Debug\MaterialSkin.dll
+D:\C#\DEMO_PieChart\DEMO_PieChart\obj\Debug\DEMO_PieChart.exe.config
