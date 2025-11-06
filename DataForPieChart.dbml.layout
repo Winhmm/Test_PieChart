@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataForPieChart">
+  <DataContextMoniker Name="/DataForPieChartDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6b16b458-9db4-4ce3-b479-5a6234288de4" absoluteBounds="1.625, 1.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataForPieChartDataContext/BUY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a6052f9-f04a-4245-9ff8-9c816c884a74" absoluteBounds="1.6400000000000001, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1aedf75b-4ae3-475b-8171-bf0301b72dbd" absoluteBounds="5.125, 2.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataForPieChartDataContext/CAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9469952-06c9-4da8-981d-a292bbb3de18" absoluteBounds="5.14, 3.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 3.13544840494792); (3.625 : 3.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataForPieChartDataContext/CAR/CAR_BUY" />
+      <nodes>
+        <classShapeMoniker Id="1aedf75b-4ae3-475b-8171-bf0301b72dbd" />
+        <classShapeMoniker Id="6b16b458-9db4-4ce3-b479-5a6234288de4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

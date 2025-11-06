@@ -16,7 +16,7 @@ namespace DEMO_PieChart
     public partial class Form1 : Form
     {
         // Tạo đối tượng DataContext để truy cập database
-        CarDataDataContext db = new CarDataDataContext();
+        private DataForPieChartDataContext db = new DataForPieChartDataContext();
         public Form1()
         {
             InitializeComponent();
