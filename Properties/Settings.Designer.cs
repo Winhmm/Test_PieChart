@@ -44,5 +44,27 @@ namespace DEMO_PieChart.Properties {
                 return ((string)(this["Database1ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database2.mdf" +
+            ";Integrated Security=True")]
+        public string Database2ConnectionString {
+            get {
+                return ((string)(this["Database2ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-KJEA09PU\\WIINHMM;Initial Catalog=CarManagement;Integrated Secu" +
+            "rity=True;TrustServerCertificate=True")]
+        public string CarManagementConnectionString1 {
+            get {
+                return ((string)(this["CarManagementConnectionString1"]));
+            }
+        }
     }
 }
